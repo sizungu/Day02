@@ -6,11 +6,10 @@
 /*   By: sizungu <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 10:45:01 by sizungu           #+#    #+#             */
-/*   Updated: 2020/07/15 11:18:02 by sizungu          ###   ########.fr       */
+/*   Updated: 2020/07/16 16:59:26 by sizungu          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
 
 void ft_putchar(int n)
 	{ write(1, &n, 3);
@@ -52,8 +51,3 @@ void ft_print_comb(void)
 		 ft_putchar('\n');
 	}
 
-int main()
-{
-	ft_print_comb();
-	return(0);
-}
